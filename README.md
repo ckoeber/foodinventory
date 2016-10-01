@@ -60,3 +60,25 @@ As a user of the Food Inventory Application I would like to track the sales of e
 3. Sales should be made available in a separate section of the application via a report by which all columns are sortable.
 4. Sales should be searchable by date or the type of product purchased.
 5. If the amount of units of said product is zero (0) or the user is attempting to enter in a sale by which the amount purchased is more than what the store currently has then the sale should be rejected.
+
+##Submission
+You have two options for submitting the completed activity.
+
+###Option One - Github
+Create a **separate** project within Github and upload the results of your activity to that project. You may send the link to the separate repository to the provided location in the communication for the position you are being considered for.
+
+####Notes
+* Do **NOT** fork the repository; upload the results of the activity to a completely separate repository on Github.
+
+###Option Two - Email Attachment
+Zip up the completed project and send the entire exercise to the provided location in the communication for the position you are being considered for.
+
+####Notes
+* The entire zipped file should be no more than 10MB in size. Note that you may remove any packages folders; the bin directory for the separate projects within the solution, etc. to reduce space of the zip file.
+
+###Final Submission Notes
+* Note that whichever option you choose you must send the final results to the same location communicated to you.
+* The separate communication must using the following subject:
+  * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.**
+* The separate communication should either have the link to the separate Github repository with the completed activity or the attached zipped file.
+* **No other types of submissions will be accepted.**
