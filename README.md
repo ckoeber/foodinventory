@@ -5,14 +5,17 @@ The Food Inventory web application tracks an inventory of products for a store. 
 
 ##Setup Instructions
 
+###Minimum Requirements
+This project was created with Microsoft Visual Studio 2015; the project has also been tested to run in Micrsoft Visual Studio 2013.
+
 ###Database
-The SQL schema for this project is located in **DataBaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the appropriate configuration files (web.config within the Web Project) once the database has been set up for use on your system.
+The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the appropriate configuration files (web.config within the Web Project) once the database has been set up for use on your system.
 
 ###Project
-The primary solution file is FoodInventory.sln; all necessary component for running the solution is either within the solution itself or automatically made available via nuget packages via restore.
+The primary solution file is FoodInventory.sln; all necessary component for running the solution is either within the solution itself or automatically made available via nuget packages by performing a restore.
 
 ##Instructions for Activity Completion
-Complete one (1) of the following activities by the given deadline communicated to you via a separate message.
+Complete **one (1)** of the following activities by the given deadline communicated to you via a separate message.
 
 ### Activity One - Import and Export
 
@@ -44,15 +47,15 @@ As a user of the Food Inventory Application I would like to track the sales of e
 
 #### Acceptance Criteria
 1. The application must track the following aspects of any given sale of a product:
-⋅⋅1. Date and time of sale
-⋅⋅2. Product Purchased
-⋅⋅3. Amount of units of the product purchased
-⋅⋅4. Discount in dollars, if any
-⋅⋅5. Type of payment
-⋅⋅⋅⋅* Credit
-⋅⋅⋅⋅* Debit
-⋅⋅⋅⋅* Cash
-⋅⋅⋅⋅* Check
+  1. Date and time of sale
+  2. Product Purchased
+  3. Amount of units of the product purchased
+  4. Discount in dollars, if any
+  5. Type of payment
+    * Credit
+    * Debit
+    * Cash
+    * Check
 2. When a sale is made, the amount of items purchased should be deducted from the current inventory of the product.
 3. Sales should be made available in a separate section of the application via a report by which all columns are sortable.
 4. Sales should be searchable by date or the type of product purchased.
