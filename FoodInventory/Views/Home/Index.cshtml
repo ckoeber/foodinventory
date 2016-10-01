@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Listing of Products";
+}
+<div class="row">
+    <div class="col-sm-12">
+        <h2>@Html.Raw(ViewBag.Title)</h2>
+        <p>
+            Below you will find a listing of products at our store.
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <table id="tblListingOfProducts" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Purchase Price</th>
+                    <th>Sales Price</th>
+                    <th>Spoil Date</th>
+                    <th>Units Available</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+
+@section scripts {
+<script type="text/javascript">
+    if (typeof (FoodInventory) === 'undefined' || FoodInventory === null) {
+        var FoodInventory = {};
+    }
+
+    FoodInventory.ProductsAPIURL = '@HttpContext.Current.Request.Url.GetLeftPart(UriPartial.Authority)@Url.Content("~/")api/Product';
+    FoodInventory.ProductsAddEditFormURL = '@Url.Action("AddEditProduct", "Home")';
+</script>    
+    @Scripts.Render("~/bundles/index")
+}

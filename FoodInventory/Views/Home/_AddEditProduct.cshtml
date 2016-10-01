@@ -1,0 +1,32 @@
+﻿<form id="frmAddEditProduct">
+    <div class="form-group">
+        <label for="txtProductName">Name</label>
+        <input type="text" placeholder="Type in the name of the product here." maxlength="50" required id="txtProductName" name="txtProductName" class="form-control"/>
+        <small id="txtProductNameHelp" class="form-text text-muted">Type in the unique name of the product you are adding here.</small>
+    </div>
+    <div class="form-group">
+        <label for="txtProductDescription">Description</label>
+        <textarea class="form-control" id="txtProductDescription" name="txtProductDescription" rows="3" placeholder="Type in the description of the product here."></textarea>
+        <small id="txtProductDescriptionHelp" class="form-text text-muted">Type in a description of the product. Note that this field is not required.</small>
+    </div>
+    <div class="form-group">
+        <label for="txtProductPurchasePrice">Purchase Price</label>
+        <input type="text" placeholder="Type in the purchase price of the product here." required id="txtProductPurchasePrice" name="txtProductPurchasePrice" class="form-control" />
+        <small id="txtProductPurchasePriceHelp" class="form-text text-muted">Type in the cost that you bought this product for. Note that this field should be an amount in US dollars.</small>
+    </div>
+    <div class="form-group">
+        <label for="txtProductSalesPrice">Sales Price</label>
+        <input type="text" placeholder="Type in the cost of the product here." required id="txtProductSalesPrice" name="txtProductSalesPrice" class="form-control" />
+        <small id="txtProductSalesPriceHelp" class="form-text text-muted">Type in the price that you are selling this product for. Note that this field should be an amount in US dollars.</small>
+    </div>
+    <div class="form-group">
+        <label for="txtProductSpoilDate">Spoil Date</label>
+        <input type="text" placeholder="Click to select or type a date that this product may spoil." id="txtProductSpoilDate" name="txtProductSpoilDate" class="form-control date-picker" />
+        <small id="txtProductSpoilDateHelp" class="form-text text-muted">Click to select or type a date that this product may spoil. Note that this field is not required.</small>
+    </div>
+    <div class="form-group">
+        <label for="txtProductUnitsAvailable">Units Available</label>
+        <input type="text" placeholder="Type in the amount of units that you have on hand for this product." required id="txtProductUnitsAvailable" name="txtProductUnitsAvailable" class="form-control" />
+        <small id="txtProductUnitsAvailableHelp" class="form-text text-muted">Type in the amount of units that you have on hand for this product. Note that this field should be an amount.</small>
+    </div>
+</form>
