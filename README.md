@@ -6,7 +6,7 @@ The Food Inventory web application tracks an inventory of products for a store. 
 ##Setup Instructions
 
 ###Minimum Requirements to Build
-The solution was created with Microsoft Visual Studio 2015; the project has also been tested to run in Microsoft Visual Studio 2013. In addition, to run the solution, you must have an instance of Microsoft SQL Server  available. Note that you can use Microsoft SQL Server Express, freely available, to satisfy this requirement.
+The solution was created with Microsoft Visual Studio 2015; the solution has also been tested to run in Microsoft Visual Studio 2013. In addition, to run the solution, you must have an instance of Microsoft SQL Server  available. Note that you can use Microsoft SQL Server Express, freely available, to satisfy this requirement.
 
 ###Database
 The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the proper configuration files (web.config within the Web Project) once the database has been set up for use on your system.
@@ -30,7 +30,7 @@ As a user of the Food Inventory Application I would like to import and export th
 #### Acceptance Criteria
 1. All rows in the imported Microsoft Excel file must be validated to meet the requirements for input into the database.
 2. The application must tell the user if there are missing columns in the imported Microsoft Excel file and how many rows, if any, are invalid should there be invalid data.
-3. The application must display to the user a message informing the user that the data from the Microsoft Excel file has been imported successfully and refresh the display of data within the web page upon successful import.
+3. The application must display to the user a message that the data from the Microsoft Excel file has been imported successfully and refresh the display of data within the web page upon successful import.
 4. The application must allow exporting of the data into a compatible Microsoft Excel file with all rows **except** for the DeletedDate column.
 
 ### Activity Two - Attach Pictures to Products
@@ -41,7 +41,7 @@ As a user of the Food Inventory Application I would like to attach **one (1) or 
 #### Acceptance Criteria
 1. The application should only allow users to attach JPEG and PNG image files to each product.
 2. The application should only accept file sizes of up  to 500KB in size.
-3. The user should be informed of this limitation and be prevented from uploading the file should said criteria not be met.
+3. The user should be informed of these limitations and be prevented from uploading the file should said criteria not be met.
 4. Each product/item listed should be allowed to have one or more pictures attached to them.
 5. The user should be able to view the pictures associated with each product within the application.
 
