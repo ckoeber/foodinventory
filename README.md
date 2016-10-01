@@ -6,13 +6,13 @@ The Food Inventory web application tracks an inventory of products for a store. 
 ##Setup Instructions
 
 ###Minimum Requirements to Build
-The solution was created with Microsoft Visual Studio 2015; the project has also been tested to run in Microsoft Visual Studio 2013. In addition, in order to run the solution you must have an instance of Microsoft SQL Server  available. Note that you can use Microsoft SQL Server Express, freely available, to satisfy this requirement.
+The solution was created with Microsoft Visual Studio 2015; the project has also been tested to run in Microsoft Visual Studio 2013. In addition, to run the solution, you must have an instance of Microsoft SQL Server  available. Note that you can use Microsoft SQL Server Express, freely available, to satisfy this requirement.
 
 ###Database
-The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the appropriate configuration files (web.config within the Web Project) once the database has been set up for use on your system.
+The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the proper configuration files (web.config within the Web Project) once the database has been set up for use on your system.
 
 ###Solution
-The primary solution file is **FoodInventory.sln**; all necessary component for running the solution is either within the solution itself or automatically made available via nuget packages by performing a restore.
+The primary solution file is **FoodInventory.sln**; all necessary components for running the solution is either within the solution itself or automatically made available via nuget packages by performing a restore.
 
 Within the solution there are three (3) projects.
 * **FoodInventory** The front-end of the web application where all HTML/CSS3 mark-up and JavaScript code is located.
@@ -25,13 +25,13 @@ Complete **one (1)** of the following activities by the given deadline communica
 ### Activity One - Import and Export
 
 #### User Story
-As a user of the Food Inventory Application I would like to import and export the listing of food into a Microsoft Excel file so that I can utilize Microsoft Excel for reporting purposes.
+As a user of the Food Inventory Application I would like to import and export the listing of food into a Microsoft Excel file so that I can use Microsoft Excel for reporting purposes.
 
 #### Acceptance Criteria
 1. All rows in the imported Microsoft Excel file must be validated to meet the requirements for input into the database.
-2. The application must inform the user if there are missing columns in the imported Microsoft Excel file and how many rows, if any, are invalid should there be invalid data.
+2. The application must tell the user if there are missing columns in the imported Microsoft Excel file and how many rows, if any, are invalid should there be invalid data.
 3. The application must display to the user a message informing the user that the data from the Microsoft Excel file has been imported successfully and refresh the display of data within the web page upon successful import.
-4. The application must allow exporting of the data into a compatable Microsoft Excel file with all rows **except** for the DeletedDate column.
+4. The application must allow exporting of the data into a compatible Microsoft Excel file with all rows **except** for the DeletedDate column.
 
 ### Activity Two - Attach Pictures to Products
 
@@ -83,7 +83,7 @@ Zip up the completed project and send the entire exercise to the provided locati
 
 ###Final Submission Notes
 * Note that whichever option you choose you must send the final results to the same location communicated to you.
-* The separate communication must using the following subject:
+* The separate communication must use the following subject:
   * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.**
 * The separate communication should either have the link to the separate Github repository with the completed activity or the attached zipped file.
 * **No other types of submissions will be accepted.**
