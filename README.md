@@ -11,7 +11,7 @@ The solution was created with Microsoft Visual Studio 2015; the project has also
 ###Database
 The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the appropriate configuration files (web.config within the Web Project) once the database has been set up for use on your system.
 
-###Project
+###Solution
 The primary solution file is **FoodInventory.sln**; all necessary component for running the solution is either within the solution itself or automatically made available via nuget packages by performing a restore.
 
 Within the solution there are three (3) projects.
