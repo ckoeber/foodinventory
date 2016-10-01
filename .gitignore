@@ -42,7 +42,10 @@ dlldata.c
 
 # DNX
 project.lock.json
+<<<<<<< HEAD
 project.fragment.lock.json
+=======
+>>>>>>> cb8e1cacaf9544ff6236e0b50b88c1dabb2cae12
 artifacts/
 
 *_i.c
@@ -110,10 +113,13 @@ _TeamCity*
 # DotCover is a Code Coverage Tool
 *.dotCover
 
+<<<<<<< HEAD
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
 
+=======
+>>>>>>> cb8e1cacaf9544ff6236e0b50b88c1dabb2cae12
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
@@ -193,7 +199,10 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
+<<<<<<< HEAD
 *.jfm
+=======
+>>>>>>> cb8e1cacaf9544ff6236e0b50b88c1dabb2cae12
 *.pfx
 *.publishsettings
 node_modules/
@@ -256,6 +265,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+<<<<<<< HEAD
 
 # CodeRush
 .cr/
@@ -266,3 +276,5 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
+=======
+>>>>>>> cb8e1cacaf9544ff6236e0b50b88c1dabb2cae12
