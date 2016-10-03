@@ -3,6 +3,9 @@
 ##Introduction
 The Food Inventory web application tracks an inventory of products for a store. You may view a listing of products for the store as well as perform CRUD operations for said products.
 
+##Important
+Please review the **entire document** below and follow all instructions; failure to follow instructions will significantly affect your consideration for the position you are applying for.
+
 ##Setup Instructions
 
 ###Minimum Requirements to Build
