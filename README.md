@@ -28,7 +28,7 @@ Within the solution there are three (3) projects.
 * **FoodInventory.API** All WebAPI related code is located within this project.
 * **FoodInventory.Data** All data transfer objects and database-related code is located within this project.
 
-##Instructions for Activity Completion
+##Instructions for Activity Completion - Complete one (1) Activity
 Complete **one (1)** of the following activities by the given deadline communicated to you via a separate message.
 
 ### Activity One - Import and Export
