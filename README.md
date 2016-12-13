@@ -83,16 +83,5 @@ Create a **separate** project within Github and upload the results of your activ
 
 ####Notes
 * Do **NOT** fork the repository; upload the results of the activity to a completely separate repository on Github.
-
-###Option Two - Email Attachment
-Zip up the completed project and send the entire exercise to the provided location in the communication for the position you are being considered for.
-
-####Notes
-* The entire zipped file should be no more than 10MB in size. Note that you may remove any packages folders; the bin directory for the separate projects within the solution, etc. to reduce space of the zip file.
-
-###Final Submission Notes
-* Note that whichever option you choose you must send the final results to the same location communicated to you.
-* The separate communication must use the following subject:
-  * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.**
-* The separate communication should either have the link to the separate Github repository with the completed activity or the attached zipped file.
+###Option Two - FTP UploadZip up the completed project and send the entire exercise to the provided FTP upload location in the communication for the position you are being considered for. Be sure to include any and all supporting SQL scripts / database(s) as well as any other items needed to run the project.###Final Submission Notes* Note that whichever option you choose you must send the final results to the same email address communicated to you.* The separate communication must use the following subject:  * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.*** The separate communication should either have the link to the separate Github repository with the completed activity or a note mentioning that the activity was uploaded via FTP.* **No other types of submissions will be accepted.**
 * **No other types of submissions will be accepted.**
