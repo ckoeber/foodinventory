@@ -90,5 +90,6 @@ Zip up the completed project and send the entire exercise to the provided FTP up
 ###Final Submission Notes
 * Note that whichever option you choose you must send the final results to the same email address communicated to you.
 * The separate communication must use the following subject:  
-* **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.*** The separate communication should either have the link to the separate Github repository with the completed activity or a note mentioning that the activity was uploaded via FTP.
+  * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.**
+  * The separate communication should either have the link to the separate Github repository with the completed activity or a note mentioning that the activity was uploaded via FTP.
 * **No other types of submissions will be accepted.**
