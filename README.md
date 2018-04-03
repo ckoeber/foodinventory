@@ -1,26 +1,26 @@
 # Food Inventory
 
-##Introduction
+## Introduction
 The Food Inventory web application tracks an inventory of products for a store. You may view a listing of products for the store as well as perform CRUD operations for said products.
 
-##Important
+## Important
 Please review the **entire document** below and follow all instructions; failure to follow instructions will significantly affect your consideration for the position you are applying for.
 
-##Setup Instructions
+## Setup Instructions
 
-###Minimum Requirements to Build
+### Minimum Requirements to Build
 The solution was created with Microsoft Visual Studio 2015; the solution has also been tested to run in Microsoft Visual Studio 2013. In addition, to run the solution, you must have an instance of Microsoft SQL Server  available. Note that you can use Microsoft SQL Server Express, freely available, to satisfy this requirement.
 
-####Getting Microsoft Visual Studio 2015
+#### Getting Microsoft Visual Studio 2015
 If you **do not have** Microsoft Visual Studio 2013-2015 available on your system you can get Microsoft Visual Studio 2015 Community Edition, which comes at **no cost**, from [here](https://www.visualstudio.com/vs/community/).
 
-####Getting Microsoft SQL Server 2016 Express
+#### Getting Microsoft SQL Server 2016 Express
 If you **do not have** access to an instance of Microsoft SQL Server for development purposes you may download Microsoft SQL Server 2016 Express Edition, which comes at **no cost**, from [here](https://www.microsoft.com/en-us/download/details.aspx?id=52679).
 
-###Database
+### Database
 The SQL schema for this project is located in **DatabaseSchema.sql**. Use either an instance of Microsoft SQL Server or Microsoft SQL Server Express and update the proper configuration files (web.config within the Web Project) once the database has been set up for use on your system.
 
-###Solution�
+### Solution
 The primary solution file is **FoodInventory.sln**; all necessary components for running the solution is either within the solution itself or automatically made available via nuget packages by performing a restore.
 
 Within the solution there are three (3) projects.
@@ -28,7 +28,7 @@ Within the solution there are three (3) projects.
 * **FoodInventory.API** All WebAPI related code is located within this project.
 * **FoodInventory.Data** All data transfer objects and database-related code is located within this project.
 
-##Instructions for Activity Completion - Complete One (1) Activity
+## Instructions for Activity Completion - Complete One (1) Activity
 Complete **one (1)** of the following activities by the given deadline communicated to you via a separate message.
 
 ### Activity One - Import and Export
