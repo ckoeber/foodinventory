@@ -75,19 +75,19 @@ As a user of the Food Inventory Application I would like to track the sales of e
 4. Sales should be searchable by date or the type of product purchased.
 5. If the amount of units of said product is zero (0) or the user is attempting to enter in a sale by which the amount purchased is more than what the store currently has then the sale should be rejected.
 
-##Submission
+## Submission
 You have two options for submitting the completed activity.
 
-###Option One - Github
+### Option One - Github
 Create a **separate** project within Github and upload the results of your activity to that project. You may send the link to the separate repository to the provided location in the communication for the position you are being considered for.
 
-####Notes
+#### Notes
 * Do **NOT** fork the repository; upload the results of the activity to a completely separate repository on Github.
 
-###Option Two - FTP Upload
+### Option Two - FTP Upload
 Zip up the completed project and send the entire exercise to the provided FTP upload location in the communication for the position you are being considered for. Be sure to include any and all supporting SQL scripts / database(s) as well as any other items needed to run the project.
 
-###Final Submission Notes
+### Final Submission Notes
 * Note that whichever option you choose you must send the final results to the same email address communicated to you.
 * The separate communication must use the following subject:  
   * **Activity ([Name of Activity Completed Here]) Results for .NET Developer Role.**
